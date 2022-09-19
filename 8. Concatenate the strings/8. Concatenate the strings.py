@@ -1,5 +1,5 @@
 #8
-x = "APPINESS "
-y = "INTERACTIVE PVT LMD"
-z= x+y
-print(z)
+x = "APPINESS"
+y = "INTERACTIVE"
+o=[x,y,"PVT","LMT"]
+print(" ".join(o))
