@@ -1,9 +1,7 @@
 4#
-import string
-
 a = "APPINESS INTERACTIVE IS BEST PLACE TO WORK"
-result_of_b = (a.capitalize())
-result_of_a = string.capwords(a)
+capialized_in_sentence= (a.capitalize())
+capialized_in_word = (a.title())
 
-print(result_of_b)
-print(result_of_a)
+print(capialized_in_sentence)
+print(capialized_in_word)

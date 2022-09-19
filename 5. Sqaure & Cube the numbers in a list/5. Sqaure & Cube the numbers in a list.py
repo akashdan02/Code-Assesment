@@ -1,10 +1,9 @@
 # 5#
 list=[1,2,3,4,5,6,7,8]
-list1=[]
-list2=[]
+squared_list=[]
+cubed_list=[]
 for i in list:
-    list1.append(i*i)
-print(list1)
-for i in list:
-    list2.append(i*i*i)
-print(list2)
+    squared_list.append(i*i)
+    cubed_list.append(i*i*i)
+print(squared_list)
+print(cubed_list)
